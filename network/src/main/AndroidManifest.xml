@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lakelab.android.network">
+
+    <application>
+        <provider
+            android:name=".InitializeProvider"
+            android:authorities="${applicationId}.InitializeProvider"
+            android:exported="false" />
+    </application>
+</manifest>
